@@ -13,19 +13,49 @@
   <body>
       <!--This is the nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Amalia Hay</a>
+        <a class="my-2 ml-3 pr-5 navbar-brand" href="#">Amalia Hay</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">About </a>
+            <a class="float-md-right nav-item nav-link" href="index.html">About </a>
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
             
           </div>
         </div>
       </nav>
+      
+      <!--This is the container for the form-->
+      <div class="container">
+        <!--This is the heading of the form-->
+        <h1>Contact</h1>
+          
+        <form>
+          <!--This is the name part of the form-->
+          <div class="row">
+            <div class="col">
+              <h6>Name</h6>
+              <input type="text" class="form-control" placeholder="John Smith">
+            </div>
+          </div>
+          <!--This is the email part of the form-->
+          <div class="row">
+            <div class="col">
+              <h6>Email</h6>
+              <input type="text" class="form-control" placeholder="something@gmail.com">
+            </div>
+          </div>
+          <!--This is the message part of the form-->
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
